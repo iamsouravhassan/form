@@ -12,17 +12,19 @@
 
 body{
     width: 100%;
-    height: 100%;background-color: blueviolet;
+    height: 100%;background-color: rgb(159, 142, 175);
 }
 
 .container{
-    width: 90%;
+    max-width: 700px;
+    min-width: 400px;
     background-color: white;
     border-radius: 6px;
     padding: 25px;
     margin: auto;
     margin-top: 50px;
     padding-inline: 25px;
+    overflow: hidden;
     
 }
 header{
@@ -36,7 +38,8 @@ header{
 
 
 .logo img{
-    height: 50px;
+    height: 65px;
+    padding-top: 20px;
     
 }
 
@@ -177,22 +180,24 @@ input[type="text"]{
 .contact-relation{
     display: flex;
     padding-block: 5px;
-    
-}
-
-.contact-relation div{
-    display: flex;
     gap: 15px;
-    width: 100%;
-    
+
     
 }
 
-.contact-relation div div{
+div.contact-relation div{
     display: flex;
-    gap: 5px;
     flex-direction: column;
+    gap: 6px;
+    width: 28%;
+    flex-grow: 1;
+    
 }
+
+
+
+
+
 
 .postal{
     display: flex;
@@ -259,3 +264,83 @@ div.extra-curri input{
     width: 20px;
     height: 20px;
 }
+
+
+textarea{
+    width: 100%;
+    margin-top: 10px;
+    height: 200px;
+
+}
+
+
+.income{
+    width: 50%;
+    margin-top: 15px;
+}
+
+
+.radio{
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    
+    
+    
+}
+.yes,.no{
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+
+.radio input{
+    width: 20px;
+
+}
+
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    width: 250px;
+}
+
+.button button{
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: background-color 1s;
+}
+
+
+
+button[type="button"]{
+    background-color: rgb(108, 21, 195);
+    color: white;
+    border-radius: 10px;
+}
+
+.print{
+    background-color: black;
+
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+input{
+    border: 1px solid ;
+}
+
+
+    
