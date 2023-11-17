@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital@1&family=Roboto+Condensed:wght@1,300&family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/c938b44cae.js" crossorigin="anonymous"></script>
 </head>
 <body>
  <div class="container">
@@ -222,8 +223,16 @@
 
     <div class="upload-file">
         <h4>Curriculum Vitae or List of Achievements</h4>
-        <input type="file">
-        <label for="">File should be in pdf, doc/docx format.</label>
+        <input type="file" id="upload-file">
+
+        <label for="upload-file" class="file-degain">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <p class="u-f">Upload a file</p>
+            <p class="u-p">Drag and drop files here</p>
+        </label>
+
+
+        <label>File should be in pdf, doc/docx format.</label>
     </div>
 
     <div class="other">
